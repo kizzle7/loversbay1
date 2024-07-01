@@ -23,7 +23,7 @@ export const DashboardContainer = ({ children, title }) => {
           <div class="main-wrapper">
             <div className="top-navv">
               <div className="d-flex justify-content-between align-items-center">
-                <div className="py-2">🤍Lovers Bay</div>
+                <div className="py-2 px-2">🤍Lovers Bay</div>
               </div>
             </div>
 

@@ -47,8 +47,8 @@ function Authenticate() {
   useEffect(() => {
     var urlParams = new URLSearchParams(window.location.search);
     const type = urlParams.get("mode");
-    if(type !== 'login'){
-    initiateOTP();
+    if (type !== "login") {
+      initiateOTP();
     }
   }, []);
 
@@ -114,9 +114,9 @@ function Authenticate() {
         setDisabled(false);
         if (res.status === 200) {
           Notification("success", "Success", "Login Successful!");
-          // setTimeout(() => {
-          //   history?.push("/dashboard");
-          // }, 1200);
+          setTimeout(() => {
+            history?.push("/dashboard");
+          }, 900);
         }
       })
       .catch((err) => {
@@ -125,7 +125,6 @@ function Authenticate() {
         Notification("error", "Error", err?.response?.data?.message);
       });
   };
-
 
   const Notification = (type, msgType, msg) => {
     notification[type]({
