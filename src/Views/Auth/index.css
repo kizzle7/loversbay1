@@ -1,0 +1,48 @@
+.login-form-bg {
+  background-image: url(../../Assets/png/dark-style-valentines-day-celebration_23-2151133859.avif);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.login-face{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.login-form {
+  padding: 0px 35px;
+}
+
+.show-auth-bg {
+  background-color: #f6f3ef;
+  height: 100%;
+}
+
+.show-auth-page{
+  padding: 40px;
+}
+
+.container-auth {
+  padding: 0px 80px;
+}
+
+.join-us-border {
+  border: 1px solid #acb2bd;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding:4px 10px;
+}
+
+@media screen and (max-width: 960px) {
+  .login-face{
+    width: 100%;
+  }
+  
+}
+

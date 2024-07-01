@@ -1,0 +1,60 @@
+.button {
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    border-radius: 6px;
+    height: 49px;
+    border: transparent;
+
+  }
+  
+  .curve-btn{
+    border-radius: 50px;
+  }
+  .disabled-button {
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    background: #d3d3d3;
+    border-radius: 3px;
+    cursor: not-allowed;
+    pointer-events: all !important;
+    height: 41px;
+  }
+  
+  .small {
+    padding: 10px 20px;
+    font-weight: 400;
+  }
+  
+  .dark-bg {
+    background: #F44336;
+    color: #fff;
+  }
+  .green {
+    background: #00a859;
+    color: #fff;
+  }
+  .amber-btn {
+    color: #fff;
+    border: 1px solid #FF6929;
+    background-color: #FF6929;
+    width: fit-content;
+    padding: 0px 40px;
+    border-radius: 10px;
+  }
+  .plain-green {
+    color: #00a859;
+    border: 1px solid #00a859;
+    background-color: #fff;
+  }
+  .dark-bg-outline{
+    color: #F44336;
+    background-color: #fff;
+    border: 1px solid #F44336;
+  }
+  

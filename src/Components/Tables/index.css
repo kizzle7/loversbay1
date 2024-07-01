@@ -1,0 +1,15 @@
+.amt-border {
+  border: 1px solid #f6f6f6;
+  background-color: #f6f6f6;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.amt-load-status {
+  border: 1px solid #ffe5b8;
+  background-color: #ffe5b8;
+  color: #e49204;
+  border-radius: 10px;
+  padding: 3px 1px;
+}
