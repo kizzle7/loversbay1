@@ -46,10 +46,11 @@ function Authenticate() {
 
   useEffect(() => {
     var urlParams = new URLSearchParams(window.location.search);
-    const type = urlParams.get("mode");
-    if (type !== "login") {
-      initiateOTP();
-    }
+    const phone = urlParams.get("phone");
+    setPhone(phone);
+    // if (type !== "login") {
+    //   initiateOTP();
+    // }
   }, []);
 
   const initiateOTP = async () => {
@@ -146,9 +147,7 @@ function Authenticate() {
                 <div className="text-center" style={{ fontSize: "20px" }}>
                   ❤️
                 </div>
-                <h4 className="text-center py-3">
-                  Input OTP sent to 070XXXXXXXXX
-                </h4>
+                <h4 className="text-center py-3">Input OTP sent to {phone}</h4>
                 <br />
                 <div className="mb-3 d-flex justify-content-center align-items">
                   <Controller
